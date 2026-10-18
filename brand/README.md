@@ -1,23 +1,25 @@
-# Project presentation identity
+# Project identity — v2
 
-Warm ivory, dark ink and restrained teal connect the public project covers. Original product logos retain their proportions and colors; typography supplies the identity for projects without a dedicated logo.
+Warm ivory (#F7F7F2), dark ink (#17262D) and teal (#007F75) connect the portfolio. Dark application variants use ivory lettering and a lighter teal for contrast.
 
-- Sources: editable, self-contained SVG files in `sources/`.
-- Exports: matching PNG files in `exports/`; dimensions and hashes are in `manifest.json`.
-- Typeface: Segoe UI, rendered from the Windows system font; no font files are redistributed.
-- Original logos: AutoSemi from its public repository, Sentinel from its public repository, and the capstone mark from Moayad Alshehry's existing LinkedIn project media.
-- SODUM's generated GitHub avatar is deliberately excluded. The remaining projects use text wordmarks rather than invented logos.
-- Covers are presentation artwork. Application screenshots remain separate and identify synthetic demonstration data.
-- The LinkedIn cover keeps its left half clear for the mobile portrait overlay. The matching GitHub header uses a separate 1000 × 360 layout so the same positioning remains readable inside a narrow README.
+## Canonical sources
 
-## Logo provenance
+Run npm ci, then npm run generate in this folder to regenerate the SVG compositions and PNG exports. The pinned renderer is @resvg/resvg-js 2.6.2. Text uses locally installed Segoe UI and Consolas; font files are not redistributed. The manifest records export dimensions and hashes.
 
-To re-export after editing an SVG, run `npm ci` then `npm run render` in this folder. Matching text metrics require Segoe UI installed locally. Each project repository keeps the header and social-preview exports it consumes; copy refreshed exports there when changing the shared identity.
+New vector marks were drawn for the personal MA monogram, AutoSemi, Homelab Sentinel, AI Database Builder, LLM Resume Parser and Wake-on-LAN API. Light, dark and monochrome versions are included.
 
-| Asset | Original source |
-|---|---|
-| AutoSemi | https://github.com/MoayadAlshehry/AutoSemi/blob/main/images/Logo.png |
-| Homelab Sentinel | https://github.com/MoayadAlshehry/homelab-sentinel/blob/main/logo.svg |
-| Capstone Repository | Existing LinkedIn project media, asset 1791164554186, exported 18 October 2026 |
+## Supplied artwork
 
-Identity materials describe student and independent project experience. They do not imply professional project management seniority, a launched SODUM pilot or a nationwide capstone deployment.
+- PREXON: official 863 × 180 PNG supplied by Moayad Alshehry. The black wordmark and blue gradient accent are preserved.
+- SODUM: original 1280 × 697 PNG supplied by Moayad Alshehry. Colors, proportions and Arabic/English lettering are preserved.
+- Capstone Repository: original 1400 × 520 primary PNG supplied by Moayad Alshehry. Colors, proportions and Arabic/English lettering are preserved.
+
+The three supplied logos are embedded as the original PNG artwork. They have not been traced, retyped or recolored. Previous portfolio assets remain recoverable through Git history and local task backups.
+
+## Evidence
+
+PREXON's visual groups delivered capabilities. The capstone visual describes a designed workflow with implementation ongoing. SODUM's planned pilot is explicitly marked as planned and paused before user rollout. AutoSemi shows an illustrative code example. Database Builder uses actual offline executable output, without a model request or database connection. The Wake-on-LAN diagram does not contact a real PC. Dashboard and parser images show the actual applications using fictional demonstration data.
+
+## Consumer assets
+
+Each public project keeps its README header, social preview, evidence image and mark under docs/brand. AutoSemi also consumes a 128-pixel packaged PNG. Sentinel consumes a contrast-safe application wordmark and a separate square favicon. The parser consumes a project-local page icon. Deployed services and Marketplace releases are managed separately from these source assets.
