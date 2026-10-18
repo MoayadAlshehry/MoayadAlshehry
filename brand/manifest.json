@@ -1,0 +1,260 @@
+{
+  "palette": {
+    "paper": "#F7F7F2",
+    "ink": "#17262D",
+    "teal": "#007F75",
+    "muted": "#4D6267",
+    "line": "#D8E2DD"
+  },
+  "font": "Segoe UI",
+  "assets": [
+    {
+      "name": "autosemi-featured",
+      "width": 1200,
+      "height": 628,
+      "sha256": "bbb089b81cb7660367245e566dbdc6157f9ed27487c67df309c1269bbcdf1ee8"
+    },
+    {
+      "name": "autosemi-header",
+      "width": 1600,
+      "height": 480,
+      "sha256": "579f462b60f75178092f1df817048f47b3fd9f7f5c44e38c14ba10ec54860de6"
+    },
+    {
+      "name": "autosemi-linkedin",
+      "width": 1200,
+      "height": 628,
+      "sha256": "bbb089b81cb7660367245e566dbdc6157f9ed27487c67df309c1269bbcdf1ee8"
+    },
+    {
+      "name": "autosemi-mark",
+      "width": 240,
+      "height": 96,
+      "sha256": "56164b27c47cb5dbdb59e2370584e598d6c825690846f4419e32f95c1b9f74ca"
+    },
+    {
+      "name": "autosemi-social",
+      "width": 1280,
+      "height": 640,
+      "sha256": "2fd5d90f3b3aa9a307a7675a5f5227966d3593d548f5f3de4842d85eafb1fa2d"
+    },
+    {
+      "name": "capstone-linkedin",
+      "width": 1200,
+      "height": 628,
+      "sha256": "7bbbac908453f690b21930437ebdc78c2fe5510fb4442a03168262c7a8cf9225"
+    },
+    {
+      "name": "capstone-mark",
+      "width": 240,
+      "height": 96,
+      "sha256": "e9164a528cac83a5ad462922a3289efbeba4109a5fa75055e18f3a007394ba8a"
+    },
+    {
+      "name": "database-header",
+      "width": 1600,
+      "height": 480,
+      "sha256": "81f021ad8d18ab367cb057eb116db63c56f249e4e363e2a4be83b614b9b1e932"
+    },
+    {
+      "name": "database-linkedin",
+      "width": 1200,
+      "height": 628,
+      "sha256": "533db595249db6f33f6b092f02be17afb40a2c2fb89e01b1c17e7b124bd3ecc5"
+    },
+    {
+      "name": "database-mark",
+      "width": 240,
+      "height": 96,
+      "sha256": "82415450ecbab1cd8b54b5744695f8f301b6d28265079014f2c379cc10b62b11"
+    },
+    {
+      "name": "database-social",
+      "width": 1280,
+      "height": 640,
+      "sha256": "7cfd89eaa17b35a365e0c9449e0ecfa94d4baf94401263ad12dd46e1da019761"
+    },
+    {
+      "name": "parser-header",
+      "width": 1600,
+      "height": 480,
+      "sha256": "614fd53051a59a0cd35ad0efdad1272b69213a167e4fdb037fadd99a5ac73e91"
+    },
+    {
+      "name": "parser-linkedin",
+      "width": 1200,
+      "height": 628,
+      "sha256": "7b93f1bc18e9806f6fce92be0bc520a32965483241273598a0e38dc793e7ff32"
+    },
+    {
+      "name": "parser-mark",
+      "width": 240,
+      "height": 96,
+      "sha256": "88d77d54e29a5a70981779b0fe8e7b49b4ad8676e79e7bfd944e5a035c116dcf"
+    },
+    {
+      "name": "parser-social",
+      "width": 1280,
+      "height": 640,
+      "sha256": "a92a626048cbe2a17f719dbe6fa98946488073cfdd628f1e39b97831d9ad2b98"
+    },
+    {
+      "name": "professional-banner",
+      "width": 1584,
+      "height": 396,
+      "sha256": "598d4851d15c2c166b1975486f1224e0fea3d6b5c1127f4ba7b1e29c7c1b67f1"
+    },
+    {
+      "name": "selected-projects-featured",
+      "width": 1200,
+      "height": 628,
+      "sha256": "ed48fce3815677b16bc36d09b911b4c3369f4853f0b86239a15b24ecb497471d"
+    },
+    {
+      "name": "sentinel-featured",
+      "width": 1200,
+      "height": 628,
+      "sha256": "edb8297ef2591cc7ed49e9aae11aca3769b4e134317ee845721d7c243eacf49f"
+    },
+    {
+      "name": "sentinel-header",
+      "width": 1600,
+      "height": 480,
+      "sha256": "e4c065d54911d35c660df11a239b7ac990fdf1a7f2b14b06b91c71f0c9053c93"
+    },
+    {
+      "name": "sentinel-linkedin",
+      "width": 1200,
+      "height": 628,
+      "sha256": "edb8297ef2591cc7ed49e9aae11aca3769b4e134317ee845721d7c243eacf49f"
+    },
+    {
+      "name": "sentinel-mark",
+      "width": 240,
+      "height": 96,
+      "sha256": "c6dbdbbd4462fc46744dfbcb8bb7b6b50e0c0c6be264bc120e01c48fd904d090"
+    },
+    {
+      "name": "sentinel-social",
+      "width": 1280,
+      "height": 640,
+      "sha256": "acecfe5e69b69154fbe7e758addd52c649b7eef39b3f2b1e53544faed44f8d3d"
+    },
+    {
+      "name": "sodum-linkedin",
+      "width": 1200,
+      "height": 628,
+      "sha256": "720440a6cc750c8c22053e542386233301ec5d4360328a16e38564d3b5a2dd5a"
+    },
+    {
+      "name": "sodum-mark",
+      "width": 240,
+      "height": 96,
+      "sha256": "42a237fa9a2b8ec8bdd26d2811299dc29d230fa9ac8e714f7d0ae9a26255f72a"
+    },
+    {
+      "name": "wol-header",
+      "width": 1600,
+      "height": 480,
+      "sha256": "61d9a6d5ee3a5f4abff307e138b4ba1dc8f16ee4f56c3c739f90e400e4abe08e"
+    },
+    {
+      "name": "wol-linkedin",
+      "width": 1200,
+      "height": 628,
+      "sha256": "cffc9a53e493d4228e4fd37b15b8ae79a76ad53792cd75d35f92a8856b935f6a"
+    },
+    {
+      "name": "wol-mark",
+      "width": 240,
+      "height": 96,
+      "sha256": "44bb7c425510eb7f78724a05c719add53172edfd9205bb351a19aa14db892587"
+    },
+    {
+      "name": "wol-social",
+      "width": 1280,
+      "height": 640,
+      "sha256": "0ff1f6eef5bb76963d2e818ddcf5bf15a6a00b57a716447960358cfaa0f42054"
+    }
+  ],
+  "projects": [
+    {
+      "id": "autosemi",
+      "name": "AutoSemi",
+      "category": "Developer productivity",
+      "purpose": [
+        "Routine semicolon insertion,",
+        "built into your coding workflow."
+      ],
+      "status": "Published VS Code extension · 200+ Marketplace installs",
+      "logo": "autosemi-original.png",
+      "url": "https://github.com/MoayadAlshehry/AutoSemi"
+    },
+    {
+      "id": "sentinel",
+      "name": "Homelab Sentinel",
+      "category": "Infrastructure operations",
+      "purpose": [
+        "Service health, containers and alerts",
+        "in one operating view."
+      ],
+      "status": "Actively used on Raspberry Pi 5",
+      "logo": "sentinel-original.svg",
+      "url": "https://github.com/MoayadAlshehry/homelab-sentinel"
+    },
+    {
+      "id": "database",
+      "name": "AI Database Builder",
+      "category": "Requirements to schema",
+      "purpose": [
+        "Turn project requirements into",
+        "reviewable MySQL schema proposals."
+      ],
+      "status": "Java CLI · SQL preview before approval",
+      "url": "https://github.com/MoayadAlshehry/ai-database-builder"
+    },
+    {
+      "id": "parser",
+      "name": "LLM Resume Parser",
+      "category": "Structured resume extraction",
+      "purpose": [
+        "Convert PDF resumes into",
+        "inspectable, structured JSON."
+      ],
+      "status": "Streamlit application · Configurable model endpoint",
+      "url": "https://github.com/MoayadAlshehry/llm-resume-parser"
+    },
+    {
+      "id": "wol",
+      "name": "Wake-on-LAN API",
+      "category": "Remote PC automation",
+      "purpose": [
+        "Wake a remote PC through a",
+        "private, repeatable workflow."
+      ],
+      "status": "Raspberry Pi · Tailscale · Authenticated Flask API",
+      "url": "https://github.com/MoayadAlshehry/Wake-on-LAN-API"
+    },
+    {
+      "id": "sodum",
+      "name": "SODUM",
+      "category": "University-to-career venture",
+      "purpose": [
+        "Exploring the transition from",
+        "university to employment."
+      ],
+      "status": "Three-person venture · Pilot-ready MVP · Paused"
+    },
+    {
+      "id": "capstone",
+      "name": "Capstone Repository",
+      "category": "Academic review & industry discovery",
+      "purpose": [
+        "Help capstone work remain useful",
+        "and discoverable beyond graduation."
+      ],
+      "status": "Four-person capstone team · Development ongoing",
+      "logo": "capstone-original.jpg"
+    }
+  ]
+}
