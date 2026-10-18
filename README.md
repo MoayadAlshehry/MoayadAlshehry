@@ -10,7 +10,7 @@ Through student and independent projects, I've gained experience in product disc
 
 ### PREXON
 
-**Ongoing independent project.** Delivered a real estate and contract management platform connecting properties, contracts, payments and approvals, with permissions and audit trails. My work spans discovery, requirements, stakeholder coordination and delivery planning.
+**Ongoing independent startup project.** Technical solutions and consulting, from requirements to practical delivery. My work spans discovery, requirements, stakeholder coordination and planning. A delivered real estate and contract platform is one example of this work.
 
 [Case study](case-studies/prexon.md)
 

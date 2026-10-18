@@ -14,7 +14,7 @@
     {
       "id": "prexon",
       "name": "PREXON",
-      "purpose": "Connected real estate workflows.",
+      "purpose": "Technical solutions. Practical delivery.",
       "status": "Ongoing independent project",
       "original": "prexon-official-original.png",
       "url": "https://github.com/MoayadAlshehry/MoayadAlshehry/blob/main/case-studies/prexon.md",
@@ -354,25 +354,25 @@
       "name": "prexon-evidence",
       "width": 1600,
       "height": 900,
-      "sha256": "32cbbf91ceed88e224d510d2b46583772e99d28d5437ab5939b68b44f0c280cd"
+      "sha256": "61162648b09abe4c8e12042717de957461f0669ad1bec42622a849d58d1da88b"
     },
     {
       "name": "prexon-featured",
       "width": 1200,
       "height": 628,
-      "sha256": "c90d77ebab4c49de360264a9571b5993ec428a1f80c00a022eea5eed3e15becc"
+      "sha256": "a3aec2d4d10a3b61e50abbe5cd89460d9e60611ea8a8b97dcf087145b6479ff0"
     },
     {
       "name": "prexon-header",
       "width": 1600,
       "height": 480,
-      "sha256": "cb9c30091b55ecb13202f8b219ffee8ca9ba41e96387a443d028db3a9c9e324a"
+      "sha256": "363b9d2919cb6ec03c01d486b3dc5e28067f88f6bf82a407e00db671bccf28e3"
     },
     {
       "name": "prexon-linkedin",
       "width": 1200,
       "height": 628,
-      "sha256": "c90d77ebab4c49de360264a9571b5993ec428a1f80c00a022eea5eed3e15becc"
+      "sha256": "a3aec2d4d10a3b61e50abbe5cd89460d9e60611ea8a8b97dcf087145b6479ff0"
     },
     {
       "name": "prexon-mark",
@@ -384,7 +384,7 @@
       "name": "prexon-social",
       "width": 1280,
       "height": 640,
-      "sha256": "a71aa7523d413f61f5b6ff34a338ffbf9b157028632a9eaca8cbf756cdd4c40c"
+      "sha256": "6e10e19e11201a334f0f882fa55bf4dfd15a369d07fe4d06383fe2aa5848b059"
     },
     {
       "name": "professional-banner",
