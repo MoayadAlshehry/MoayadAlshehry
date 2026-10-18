@@ -5,7 +5,7 @@ const root=__dirname;
 const C={paper:'#F7F7F2',ink:'#17262D',teal:'#007F75',muted:'#4D6267',line:'#D8E2DD',tint:'#EAF2EE',mint:'#63C8BB'};
 const base='https://github.com/MoayadAlshehry/';
 const projects=[
- {id:'prexon',name:'PREXON',purpose:'Connected real estate workflows.',status:'Ongoing independent project',original:'prexon-official-original.png',url:base+'MoayadAlshehry/blob/main/case-studies/prexon.md',linkLabel:'Case study'},
+ {id:'prexon',name:'PREXON',purpose:'Technical solutions. Practical delivery.',status:'Ongoing independent project',original:'prexon-official-original.png',url:base+'MoayadAlshehry/blob/main/case-studies/prexon.md',linkLabel:'Case study'},
  {id:'capstone',name:'Capstone Repository',purpose:'Academic review. Industry discovery.',status:'Four-person capstone team · Development ongoing',original:'capstone-primary-original.png',url:base+'MoayadAlshehry/blob/main/case-studies/capstone-repository.md',linkLabel:'Case study'},
  {id:'sodum',name:'SODUM',purpose:'From university to career readiness.',status:'Three-person venture · Pilot-ready MVP · Paused',original:'sodum-original.png',url:base+'MoayadAlshehry/blob/main/case-studies/sodum.md',linkLabel:'Case study'},
  {id:'autosemi',name:'AutoSemi',purpose:'Semicolon automation for VS Code.',status:'Published extension · 200+ Marketplace installs as of October 2026',url:base+'AutoSemi',linkLabel:'Source code'},
@@ -102,7 +102,7 @@ function nodes(labels,planned=-1){
  return out;
 }
 const prexon=projects[0],capstone=projects[1],sodum=projects[2];
-save('prexon-evidence',figure(prexon,'Connected platform capabilities','Implemented modules within an ongoing independent software project',nodes([['Properties'],['Contracts'],['Payments'],['Approvals']])+'<rect x="80" y="565" width="1440" height="112" rx="18" fill="'+C.ink+'"/>'+text(800,634,'Role-based access • Audit trails',36,600,C.paper,'text-anchor="middle"')));
+save('prexon-evidence',figure(prexon,'One delivered solution','Real estate and contract management • Example of PREXON technical delivery',nodes([['Properties'],['Contracts'],['Payments'],['Approvals']])+'<rect x="80" y="565" width="1440" height="112" rx="18" fill="'+C.ink+'"/>'+text(800,634,'Role-based access • Audit trails',36,600,C.paper,'text-anchor="middle"')));
 save('capstone-evidence',figure(capstone,'Academic responsibilities and discovery','Designed workflow • Implementation ongoing',nodes([['Student','submission'],['Academic','supervision'],['Internal /','independent review'],['Faculty-led','publication'],['Controlled','industry access']])+'<rect x="80" y="565" width="1440" height="112" rx="18" fill="'+C.ink+'"/>'+text(800,634,'Student attribution • Institutional boundaries',36,600,C.paper,'text-anchor="middle"')));
 save('sodum-evidence',figure(sodum,'From discovery to a pilot-ready MVP','Three-person venture • Paused before user rollout',nodes([['Product','discovery'],['Requirements &','delivery planning'],['Multi-portal','MVP'],['University pilot','Planned']],3)+text(80,607,'A two-university pilot approach was prepared; user rollout did not begin.',30,400,C.muted)));
 const auto=projects.find(p=>p.id==='autosemi');
