@@ -58,7 +58,7 @@ for(const id of ['personal','autosemi','sentinel','database','parser','wol']){
  for(const variant of ['light','dark','mono'])save('logo-'+id+'-'+variant,svg(1024,1024,id+' '+variant+' logo','<svg width="1024" height="1024" viewBox="0 0 64 64">'+drawing(id,variant)+'</svg>',null));
 }
 save('github-avatar',svg(1024,1024,'Moayad Alshehry — geometric MA monogram','<svg x="48" y="48" width="928" height="928" viewBox="0 0 64 64">'+drawing('personal')+'</svg>'));
-save('autosemi-package-icon',svg(128,128,'AutoSemi extension icon','<svg width="128" height="128" viewBox="0 0 64 64">'+drawing('autosemi')+'</svg>',null));
+save('autosemi-package-icon',svg(128,128,'AutoSemi extension icon','<rect width="128" height="128" rx="24" fill="'+C.paper+'"/><svg width="128" height="128" viewBox="0 0 64 64">'+drawing('autosemi')+'</svg>',null));
 save('parser-page-icon',svg(256,256,'LLM Resume Parser icon','<svg width="256" height="256" viewBox="0 0 64 64">'+drawing('parser')+'</svg>'));
 save('sentinel-favicon',svg(64,64,'Homelab Sentinel icon','<svg width="64" height="64" viewBox="0 0 64 64">'+drawing('sentinel')+'</svg>'));
 save('sentinel-wordmark-dark',svg(820,160,'Homelab Sentinel',mark('sentinel',8,8,144,'dark')+text(176,102,'Homelab Sentinel',59,600,C.paper),null));
