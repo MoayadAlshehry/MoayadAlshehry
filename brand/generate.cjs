@@ -70,6 +70,14 @@ for(const p of projects){
  const side=p.original?480:160,w=p.original?640:160,h=p.original?240:160;
  save(p.id+'-mark',svg(w,h,p.name+' logo',p.original?original(p.original,8,8,w-16,h-16):mark(p.id,4,4,152)));
 }
+// GitHub-only logo tiles: transparent corners survive Markdown sanitization.
+// Original supplied artwork stays intact on an opaque white inset.
+for(const p of projects){
+ const supplied=Boolean(p.original),w=supplied?960:192,h=supplied?420:192,r=supplied?60:42;
+ const panel='<rect x="1" y="1" width="'+(w-2)+'" height="'+(h-2)+'" rx="'+r+'" fill="'+(supplied?'#FFFFFF':C.paper)+'" stroke="'+C.line+'" stroke-width="2"/>';
+ const artwork=supplied?original(p.original,64,48,w-128,h-96):mark(p.id,24,24,144);
+ save(p.id+'-github-logo',svg(w,h,p.name+' — GitHub logo on a rounded contrast-safe tile',panel+artwork,null));
+}
 function header(w,h,linkedin){
  const x=linkedin?800:60;
  let body='<path d="M'+x+' 84l18-18v29l-18 18Z M'+(x+28)+' 66l18-18v29l-18 18Z" fill="'+C.teal+'"/>';
@@ -79,6 +87,8 @@ function header(w,h,linkedin){
 }
 save('professional-banner',header(1584,396,true));
 save('github-header',header(1000,360,false));
+// Clip both the paper field and the content, so the outer corners are transparent.
+save('github-profile-header-rounded',svg(1000,360,'Moayad Alshehry — Business Development & Project Delivery','<defs><clipPath id="profile-header-clip"><rect width="1000" height="360" rx="32"/></clipPath></defs><g clip-path="url(#profile-header-clip)">'+header(1000,360,false)+'</g>',null));
 for(const id of ['prexon','capstone','autosemi','sentinel'])save(id+'-featured',cover(projects.find(p=>p.id===id),1200,628));
 let selected=text(72,158,'Selected Projects',66,700)+text(76,218,'Business needs. Practical delivery.',32,400,C.muted);
 selected+='<rect x="76" y="292" width="310" height="164" rx="16" fill="white" stroke="'+C.line+'"/>'+original('prexon-official-original.png',94,307,274,134);

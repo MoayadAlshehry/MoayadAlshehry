@@ -23,3 +23,7 @@ PREXON's visual groups delivered capabilities. The capstone visual describes a d
 ## Consumer assets
 
 Each public project keeps its README header, social preview, evidence image and mark under docs/brand. AutoSemi also consumes a 128-pixel packaged PNG. Sentinel consumes a contrast-safe application wordmark and a separate square favicon. The parser consumes a project-local page icon. Deployed services and Marketplace releases are managed separately from these source assets.
+
+## GitHub display variants
+
+The eight *-github-logo exports use rounded tiles with transparent outer corners. Supplied logos sit unchanged on white fields; software marks use an ivory field. The profile uses 320-pixel wordmark tiles and 48-pixel software tiles so they remain clear in light and dark GitHub themes. The rounded profile header is a GitHub-only composition; LinkedIn exports and source application icons are unchanged.
