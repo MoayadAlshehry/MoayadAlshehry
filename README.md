@@ -26,7 +26,7 @@ Founded a three-person venture focused on the university-to-career transition. L
 
 **Capstone Repository — Academic Review & Industry Discovery**
 
-Developing a bilingual platform within a four-person capstone team. The platform connects supervision, assessment, faculty-led publication and controlled industry discovery, preserving student attribution and institutional boundaries. Implementation is ongoing.
+Developing a bilingual platform with a four-person capstone team to keep student work discoverable beyond graduation. It connects supervision, assessment, faculty-led publication and controlled industry discovery while preserving student attribution and institutional boundaries. Implementation is ongoing.
 
 ## Connect
 
