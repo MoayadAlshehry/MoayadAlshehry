@@ -93,6 +93,12 @@
       "sha256": "e1d666ad184513c8c4b64da3f031cd9f7431ab4dc15a9e1c74058644d663bc6f"
     },
     {
+      "name": "autosemi-github-logo",
+      "width": 192,
+      "height": 192,
+      "sha256": "0d2bac1afc10bea73b75967eff7d2bb606ee739e443953b1369dc4cde5b66231"
+    },
+    {
       "name": "autosemi-header",
       "width": 1600,
       "height": 480,
@@ -135,6 +141,12 @@
       "sha256": "1b8be6c05bd1a6b1f462625edbebf772643d751323d3465741655791d01a8522"
     },
     {
+      "name": "capstone-github-logo",
+      "width": 960,
+      "height": 420,
+      "sha256": "9e2209b97d5cec35ba6c3bac54d39ebb0a4eb691f17ca851770616ebb7f3a42f"
+    },
+    {
       "name": "capstone-header",
       "width": 1600,
       "height": 480,
@@ -163,6 +175,12 @@
       "width": 1600,
       "height": 900,
       "sha256": "8ce6d630711b0efb1505609729e8e6758e4a96fa95fff21c7dbf42d4a460f2d0"
+    },
+    {
+      "name": "database-github-logo",
+      "width": 192,
+      "height": 192,
+      "sha256": "cdcd4f5fb7a8003ad7eaa4da164ee958eb0b6dd1501af8e7e3b470a427d845c3"
     },
     {
       "name": "database-header",
@@ -205,6 +223,12 @@
       "width": 1000,
       "height": 360,
       "sha256": "b22375da75bfd7e2bb10828b43d3475d730edcc1be0ddb5465ec4115c96a3d94"
+    },
+    {
+      "name": "github-profile-header-rounded",
+      "width": 1000,
+      "height": 360,
+      "sha256": "daaea844e5fc45d10d2aaef79018ff58febb1a9dc2aa9d283540aa201f0d6b65"
     },
     {
       "name": "logo-autosemi-dark",
@@ -321,6 +345,12 @@
       "sha256": "a3637d64e9aaf38b4b4849dea644b45599523f547681c35ca45183fc5c427b73"
     },
     {
+      "name": "parser-github-logo",
+      "width": 192,
+      "height": 192,
+      "sha256": "8ae5a3bb15ac2fdceaa9e8ba99ace2d6baa2c70a45aba433c57aec970a8390cc"
+    },
+    {
       "name": "parser-header",
       "width": 1600,
       "height": 480,
@@ -361,6 +391,12 @@
       "width": 1200,
       "height": 628,
       "sha256": "a3aec2d4d10a3b61e50abbe5cd89460d9e60611ea8a8b97dcf087145b6479ff0"
+    },
+    {
+      "name": "prexon-github-logo",
+      "width": 960,
+      "height": 420,
+      "sha256": "0f5560b8295a1c852c87ea2ae23c9a311eeabbe27bf092eca146a8896669f0f2"
     },
     {
       "name": "prexon-header",
@@ -423,6 +459,12 @@
       "sha256": "f9953680ab3d801af570377cfadb6ea2a0872be324919d1e84ce7cf2ca14ed7f"
     },
     {
+      "name": "sentinel-github-logo",
+      "width": 192,
+      "height": 192,
+      "sha256": "f6f1704f581168f447e269b0afa7b676ea01ea4e568c7a609bf6a951cc422151"
+    },
+    {
       "name": "sentinel-header",
       "width": 1600,
       "height": 480,
@@ -465,6 +507,12 @@
       "sha256": "83a84c706fe8812d07bcf945f8ca97ca88237f6e3bcc00056e6824379eb24160"
     },
     {
+      "name": "sodum-github-logo",
+      "width": 960,
+      "height": 420,
+      "sha256": "09370e30db72c3677a303418c77369f8b25c0f825e8625d8bf1b7482454be87c"
+    },
+    {
       "name": "sodum-header",
       "width": 1600,
       "height": 480,
@@ -493,6 +541,12 @@
       "width": 1600,
       "height": 900,
       "sha256": "85fd1cea11d0982f8d3fe65211e0f7b211ef2a42b93e79deb6ce51ccf81a6dbf"
+    },
+    {
+      "name": "wol-github-logo",
+      "width": 192,
+      "height": 192,
+      "sha256": "7a6a2fdbb6645d25b26492da8db695406f46de8653fb94e24da3cd9991f7d11c"
     },
     {
       "name": "wol-header",
