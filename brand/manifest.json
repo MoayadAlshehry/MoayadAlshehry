@@ -75,6 +75,12 @@
       "sha256": "7cfd89eaa17b35a365e0c9449e0ecfa94d4baf94401263ad12dd46e1da019761"
     },
     {
+      "name": "github-header",
+      "width": 1000,
+      "height": 360,
+      "sha256": "8a88e1b3af9330a009ab94b302eddfc50e34b9ecfda7a8fa6d5e85b56474b068"
+    },
+    {
       "name": "parser-header",
       "width": 1600,
       "height": 480,
@@ -102,7 +108,7 @@
       "name": "professional-banner",
       "width": 1584,
       "height": 396,
-      "sha256": "78d2f73f128c5437dff329eb17abf2855e5bab3ed43cbb02c6bf92544da9d515"
+      "sha256": "c7164e4c3d60715be8fe0aa2339e3f9b2ca05de0bc207c8f3b3774aaa3329615"
     },
     {
       "name": "selected-projects-featured",
