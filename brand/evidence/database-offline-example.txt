@@ -1,0 +1,6 @@
+
+Proposed SQL (review before execution):
+CREATE DATABASE `example_project`;
+CREATE TABLE `example_project`.`projects` (`id` INT, `title` VARCHAR(200), `created_at` DATETIME);
+
+Preview only. No database connection was made. Add --apply to enable creation.
