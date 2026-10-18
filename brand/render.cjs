@@ -15,4 +15,5 @@ manifest.assets = fs.readdirSync(path.join(root, 'sources')).filter(file => file
 });
 fs.writeFileSync(path.join(root, 'manifest.json'), JSON.stringify(manifest, null, 2) + '\n');
 fs.copyFileSync(path.join(root, 'exports', 'professional-banner.png'), path.join(root, '..', 'assets', 'professional-banner.png'));
+fs.copyFileSync(path.join(root, 'exports', 'github-header.png'), path.join(root, '..', 'assets', 'github-header.png'));
 console.log(`Rendered ${manifest.assets.length} presentation assets.`);

@@ -1,4 +1,4 @@
-![Moayad Alshehry — Information Systems Student | Business Development & Project Delivery](assets/professional-banner.png)
+![Moayad Alshehry — Information Systems Student | Business Development & Project Delivery](assets/github-header.png)
 
 I'm an **Information Systems student at King Khalid University**, interested in **business development and project delivery**.
 

@@ -8,6 +8,7 @@ Warm ivory, dark ink and restrained teal connect the public project covers. Orig
 - Original logos: AutoSemi from its public repository, Sentinel from its public repository, and the capstone mark from Moayad Alshehry's existing LinkedIn project media.
 - SODUM's generated GitHub avatar is deliberately excluded. The remaining projects use text wordmarks rather than invented logos.
 - Covers are presentation artwork. Application screenshots remain separate and identify synthetic demonstration data.
+- The LinkedIn cover keeps its left half clear for the mobile portrait overlay. The matching GitHub header uses a separate 1000 × 360 layout so the same positioning remains readable inside a narrow README.
 
 ## Logo provenance
 
